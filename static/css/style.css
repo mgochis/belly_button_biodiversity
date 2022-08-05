@@ -1,0 +1,19 @@
+.jumbotron::before {    
+    content: "";
+    background-image: url("../images/bacteria.jpeg");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+
+h1 {
+    position: relative;
+    color: #ffffff;  
+    font-size: 14rem;
+    line-height: 0.9;
+    text-align: center;
+}
